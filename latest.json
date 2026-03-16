@@ -12,7 +12,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-15T23:57:28.586571",
+    "last_updated": "2026-03-16T06:05:42.259495",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.4.1"
@@ -41,10 +41,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 12.31,
-      "atl": 26.39,
-      "tsb": -14.08,
-      "ramp_rate": 1.94,
+      "ctl": 12.02,
+      "atl": 22.88,
+      "tsb": -10.86,
+      "ramp_rate": 1.9,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -199,7 +199,7 @@
     "p_max": 333,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-03-15T23:57:28.586064",
+    "calculation_timestamp": "2026-03-16T06:05:42.258964",
     "data_quality": {
       "hrv_data_points": 1,
       "rhr_data_points": 1,
@@ -369,21 +369,6 @@
   ],
   "wellness_data": [
     {
-      "date": "2026-03-09",
-      "weight_kg": null,
-      "resting_hr": null,
-      "hrv_rmssd": null,
-      "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_quality": null,
-      "sleep_score": null,
-      "mental_energy": null,
-      "fatigue": null,
-      "soreness": null,
-      "avg_sleeping_hr": null,
-      "vo2max": null
-    },
-    {
       "date": "2026-03-10",
       "weight_kg": null,
       "resting_hr": 51,
@@ -460,6 +445,21 @@
     },
     {
       "date": "2026-03-15",
+      "weight_kg": null,
+      "resting_hr": null,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": null,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "fatigue": null,
+      "soreness": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null
+    },
+    {
+      "date": "2026-03-16",
       "weight_kg": null,
       "resting_hr": null,
       "hrv_rmssd": null,
