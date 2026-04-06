@@ -12,7 +12,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-05T23:32:48.023041",
+    "last_updated": "2026-04-06T00:02:50.713306",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.4.1"
@@ -44,19 +44,19 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 7.47,
-      "atl": 1.31,
-      "tsb": 6.16,
-      "ramp_rate": -1.35,
+      "ctl": 7.29,
+      "atl": 1.14,
+      "tsb": 6.15,
+      "ramp_rate": -1.32,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
       "ftp_outdoor": 105,
       "ftp_indoor": 125,
-      "eftp": 122.8,
+      "eftp": 122.6,
       "lthr": 173,
       "max_hr": 197,
-      "w_prime": 9172,
+      "w_prime": 9163,
       "w_prime_kj": 9.2,
       "p_max": 327,
       "vo2max": null
@@ -158,7 +158,7 @@
     },
     "phase_detected": "Taper",
     "phase_triggers": [
-      "TSB 6.16 positive",
+      "TSB 6.15 positive",
       "CTL stable/declining"
     ],
     "seasonal_context": "Late Base / Build",
@@ -176,13 +176,13 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 122.8,
-    "w_prime": 9172,
+    "eftp": 122.6,
+    "w_prime": 9163,
     "w_prime_kj": 9.2,
     "p_max": 327,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-05T23:32:48.022464",
+    "calculation_timestamp": "2026-04-06T00:02:50.712716",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 0,
@@ -197,21 +197,6 @@
   },
   "recent_activities": [],
   "wellness_data": [
-    {
-      "date": "2026-03-30",
-      "weight_kg": null,
-      "resting_hr": null,
-      "hrv_rmssd": null,
-      "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_quality": null,
-      "sleep_score": null,
-      "mental_energy": null,
-      "fatigue": null,
-      "soreness": null,
-      "avg_sleeping_hr": null,
-      "vo2max": null
-    },
     {
       "date": "2026-03-31",
       "weight_kg": null,
@@ -289,6 +274,21 @@
     },
     {
       "date": "2026-04-05",
+      "weight_kg": null,
+      "resting_hr": null,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": null,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "fatigue": null,
+      "soreness": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null
+    },
+    {
+      "date": "2026-04-06",
       "weight_kg": null,
       "resting_hr": null,
       "hrv_rmssd": null,
