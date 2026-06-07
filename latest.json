@@ -12,7 +12,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-06T23:44:09.883270",
+    "last_updated": "2026-06-07T01:58:09.342856",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.4.1"
@@ -31,7 +31,7 @@
   "history": {
     "available": true,
     "last_generated": "2026-05-04",
-    "age_days": 33,
+    "age_days": 34,
     "total_months": 14,
     "history_confidence": "high"
   },
@@ -51,10 +51,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 3.27,
-      "atl": 5.49,
-      "tsb": -2.22,
-      "ramp_rate": 1.25,
+      "ctl": 3.19,
+      "atl": 4.76,
+      "tsb": -1.57,
+      "ramp_rate": 1.22,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -209,7 +209,7 @@
     "p_max": 309,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-06T23:44:09.882713",
+    "calculation_timestamp": "2026-06-07T01:58:09.342294",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 0,
@@ -328,21 +328,6 @@
   ],
   "wellness_data": [
     {
-      "date": "2026-05-31",
-      "weight_kg": null,
-      "resting_hr": null,
-      "hrv_rmssd": null,
-      "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_quality": null,
-      "sleep_score": null,
-      "mental_energy": null,
-      "fatigue": null,
-      "soreness": null,
-      "avg_sleeping_hr": null,
-      "vo2max": null
-    },
-    {
       "date": "2026-06-01",
       "weight_kg": null,
       "resting_hr": null,
@@ -419,6 +404,21 @@
     },
     {
       "date": "2026-06-06",
+      "weight_kg": null,
+      "resting_hr": null,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": null,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "fatigue": null,
+      "soreness": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null
+    },
+    {
+      "date": "2026-06-07",
       "weight_kg": null,
       "resting_hr": null,
       "hrv_rmssd": null,
