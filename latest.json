@@ -12,7 +12,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-09T01:36:51.185017",
+    "last_updated": "2026-08-09T03:20:20.960808",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.4.1"
@@ -20,10 +20,10 @@
   "alerts": [
     {
       "metric": "rhr",
-      "value": 77,
+      "value": 74,
       "severity": "warning",
-      "threshold": "\u2191\u22655bpm vs baseline (70)",
-      "context": "RHR 77 is 7bpm above baseline. Monitor \u2014 alarm if persists >2 days.",
+      "threshold": "\u2191\u22655bpm vs baseline (68.5)",
+      "context": "RHR 74 is 5.5bpm above baseline. Monitor \u2014 alarm if persists >2 days.",
       "persistence_days": 1,
       "tier": 1
     }
@@ -63,7 +63,7 @@
     },
     "current_metrics": {
       "weight_kg": 91.0,
-      "resting_hr": 77,
+      "resting_hr": 74,
       "hrv": null,
       "sleep_quality": null,
       "sleep_hours": null
@@ -72,11 +72,11 @@
   "derived_metrics": {
     "recovery_index": null,
     "hrv_baseline_7d": null,
-    "rhr_baseline_7d": 70,
+    "rhr_baseline_7d": 68.5,
     "hrv_baseline_28d": null,
-    "rhr_baseline_28d": 70,
+    "rhr_baseline_28d": 68.5,
     "latest_hrv": null,
-    "latest_rhr": 77,
+    "latest_rhr": 74,
     "acwr": null,
     "acwr_interpretation": null,
     "monotony": null,
@@ -182,7 +182,7 @@
     "p_max": 290,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-09T01:36:51.184329",
+    "calculation_timestamp": "2026-08-09T03:20:20.960132",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 2,
@@ -290,7 +290,7 @@
     {
       "date": "2026-08-09",
       "weight_kg": null,
-      "resting_hr": 77,
+      "resting_hr": 74,
       "hrv_rmssd": null,
       "hrv_sdnn": null,
       "sleep_hours": null,
@@ -309,6 +309,6 @@
     "total_tss": 0,
     "activities_count": 0,
     "avg_hrv": null,
-    "avg_resting_hr": 70.0
+    "avg_resting_hr": 68.5
   }
 }
