@@ -12,12 +12,22 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-13T16:34:37.449546",
+    "last_updated": "2026-08-13T17:42:13.968007",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.4.1"
   },
-  "alerts": [],
+  "alerts": [
+    {
+      "metric": "rhr",
+      "value": 68,
+      "severity": "warning",
+      "threshold": "\u2191\u22655bpm vs baseline (61)",
+      "context": "RHR 68 is 7bpm above baseline. Monitor \u2014 alarm if persists >2 days.",
+      "persistence_days": 1,
+      "tier": 1
+    }
+  ],
   "history": {
     "available": true,
     "last_generated": "2026-07-19",
@@ -53,7 +63,7 @@
     },
     "current_metrics": {
       "weight_kg": 91.0,
-      "resting_hr": 49,
+      "resting_hr": 68,
       "hrv": null,
       "sleep_quality": null,
       "sleep_hours": null
@@ -62,11 +72,11 @@
   "derived_metrics": {
     "recovery_index": null,
     "hrv_baseline_7d": 57.0,
-    "rhr_baseline_7d": 59.2,
+    "rhr_baseline_7d": 61,
     "hrv_baseline_28d": 57.0,
-    "rhr_baseline_28d": 59.2,
+    "rhr_baseline_28d": 61,
     "latest_hrv": null,
-    "latest_rhr": null,
+    "latest_rhr": 68,
     "acwr": null,
     "acwr_interpretation": null,
     "monotony": null,
@@ -172,10 +182,10 @@
     "p_max": 289,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-13T16:34:37.448982",
+    "calculation_timestamp": "2026-08-13T17:42:13.967454",
     "data_quality": {
       "hrv_data_points": 2,
-      "rhr_data_points": 4,
+      "rhr_data_points": 5,
       "activities_7d": 0,
       "activities_28d": 0,
       "planned_workouts_7d": 0,
@@ -280,7 +290,7 @@
     {
       "date": "2026-08-13",
       "weight_kg": null,
-      "resting_hr": null,
+      "resting_hr": 68,
       "hrv_rmssd": null,
       "hrv_sdnn": null,
       "sleep_hours": null,
@@ -299,6 +309,6 @@
     "total_tss": 0,
     "activities_count": 0,
     "avg_hrv": 57.0,
-    "avg_resting_hr": 59.2
+    "avg_resting_hr": 61.0
   }
 }
